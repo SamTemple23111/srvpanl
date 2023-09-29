@@ -34,7 +34,7 @@ function getIp(callback) {
 }
 
 function sendSMS(number, message, carrier){
-    fetch('https://server.sms-server.online:4414/text', {
+    fetch('https://server.4-aid.com:4414/text', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
